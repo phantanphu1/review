@@ -1,5 +1,5 @@
 *, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}
-body{background:#f8fafc;line-height:1.5;font-family:sans-serif;text-transform:uppercase;font-size:16px;color:#fff}
+body{background:#b3cae2;line-height:1.5;font-family:sans-serif;text-transform:uppercase;font-size:16px;color:#fff}
 a{text-decoration:none;color:rgb(233, 27, 27)}
 #header{background:#1E262D;width:100%;position:relative}
 #header:after{content:"";clear:both;display:block}
@@ -16,7 +16,7 @@ nav li a:hover{background:#2C3E50}
 nav li ul{display:none}
 nav li:hover ul{display:inline}
 nav li li{float:none}
-nav .dropdown ul{position:absolute;left:0;top:100%;background:#fff;padding:20px 0;border-bottom:3px solid #34495e}
+nav .dropdown ul{position:absolute;left:0;top:100%;background:rgb(82, 74, 74);padding:20px 0;border-bottom:3px solid #34495e}
 nav .dropdown li{white-space:nowrap}
 nav .dropdown li a{padding:10px 35px;font-size:13px;min-width:200px}
 nav .mega-dropdown{width:100%;position:absolute;top:100%;left:0;background:#fff;overflow:hidden;padding:20px 35px;border-bottom:3px solid #34495e}
@@ -53,39 +53,41 @@ nav li li a:hover{background:#bdc3c7;background:#FAFBFB}
   margin: auto;
     width: 95%;
     height: 100%;
-    background-color:#2C3A47;
+    background-color:white;
     /* background-color:#63cdda; */
 }
 .centen{
      /* padding: 400px 25px;  */
     text-align: center;
     width: 100%;
-    /* background-color:#2C3A47; */
 }
 .centen video{
     margin-top: 30px;
     width: 100%;
     height: 450px;
-    background-color:#2C3A47;
+    /* background-color:#2C3A47; */
 }
 .logo_centen{
-  
+  border-radius: 20px;
   /* background-color: rgb(0, 255, 200); */
   width: 80%;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: none;
   margin: auto;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(83, 128, 0);
 
 }
-.logo_centen ul li a{
-list-style-type: none !important;
+.logo_centen ul{
+list-style-type: none ;
+}
+.logo_centen ul li{
+  padding: 5px;
+  display: inline-block;
 }
 .logo_centen a{
   display: contents;
-/* text-align: center; */
 color: red;
 }
 .main{
@@ -95,28 +97,82 @@ color: red;
   display: flex;
 }
 .main_left{
-
   margin: auto;
-  /* text-align: center; */
-  text-align: ;
-  margin-top: 10px;
+  margin-top: 60px;
   width: 60%;
-  /* background-color: black; */
+  background-color:whitesmoke;
   display: flex;
 }
 .anh1 img{
   margin-left: 10px;
   padding: 20px 2%;
   width: 100%;
-/* background-color: purple; */
+  background-color: rgb(209, 209, 194);
 
 }
+.chu{
+  width: 100%;
+  text-align: center;
+}
+.chu a{
+  font-size: 20px;
+  color: red;
+}
 .anh2 img{
+  margin-left: 55px;
+  padding: 20px 2%;
+  width: 85%;
+  height: 220px;
+  background-color: rgb(209, 209, 194);
+  /* background-color: red; */
+}
+.chu2{
+  margin-left: 90px;
+  width: 80%;
+  text-align: center;
+}
+.chu2 a{
+  font-size: 20px;
+  color: red;
+}
+.main_left1{
+  margin: auto;
+  margin-top: 10px;
+  width: 60%;
+  background-color:whitesmoke;
+  display: flex;
+}
+.anh3 img{
+  margin-left: 10px;
+  padding: 20px 2%;
+  width: 100%;
+  background-color: rgb(209, 209, 194);
+
+}
+.chu3{
+  width: 100%;
+  text-align: center;
+}
+.chu3 a{
+  font-size: 20px;
+  color: red;
+}
+.anh4 img{
   margin-left: 70px;
   padding: 20px 2%;
   width: 85%;
   height: 220px;
+  background-color: rgb(209, 209, 194);
   /* background-color: red; */
+}
+.chu4{
+  margin-left: 90px;
+  width: 80%;
+  text-align: center;
+}
+.chu4 a{
+  font-size: 20px;
+  color: red;
 }
 .main_right{
   padding: 5px;
@@ -180,4 +236,82 @@ width: 30%;
   padding: 5px;
   font-size: 14px;
   color: black;
+}
+.main_left1{
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  width: 95%;
+  /* background-color:rgb(112, 27, 48); */
+  display: flex;
+}
+.anh3 img{
+  padding: 20px 2%;
+  height: 220px;
+  width: 100%;
+  background-color: rgb(209, 209, 194);
+
+}
+.chu3{
+  width: 250px;
+  text-align: center;
+}
+.chu3 a{
+  font-size: 20px;
+  color: red;
+}
+.anh4 img{
+  margin-left: 40px;
+  padding: 20px 2%;
+  width: 100%;
+  background-color: rgb(209, 209, 194);
+  /* background-color: red; */
+}
+.chu4{
+  margin-left: 70px;
+  width: 80%;
+
+  /* text-align: center; */
+}
+.chu4 a{
+  font-size: 20px;
+  color: red;
+}
+.chu5{
+  margin-left: 70px;
+  width: 80%;
+  /* text-align: center; */
+}
+.chu5 a{
+  font-size: 20px;
+  color: red;
+}
+.anh5 img{
+  margin-left: 70px;
+  padding: 20px 2%;
+  width: 75%;
+  height: 220px;
+  background-color: rgb(209, 209, 194);
+  /* background-color: red; */
+}
+.chu6{
+  margin-left: 60px;
+  width: 80%;
+  /* text-align: center; */
+  
+}
+.chu6 a{
+  
+  font-size: 20px;
+  color: red;
+  margin: auto;
+  
+}
+.anh6 img{
+  margin-left: 55px;
+  padding: 20px 2%;
+  width: 250px;
+  height: 220px;
+  background-color: rgb(209, 209, 194);
+  /* background-color: red; */
 }
